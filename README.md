@@ -1,5 +1,6 @@
 # deep-learning-recipes
 
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 ![License: MIT](https://img.shields.io/github/license/road2stat/deep-learning-recipes.svg)
 
 R implementation for selected machine learning methods with deep learning frameworks (Keras, Tensorflow).
