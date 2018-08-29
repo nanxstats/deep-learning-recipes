@@ -9,5 +9,6 @@ Principles: clean, self-contained, minimal dependency, works with the latest fra
 
 ## Contents
 
+- Triplet losses for implicit feedback recommender systems. [[blog post](https://nanx.me/blog/post/triplet-loss-r-keras/)] [[code](triplet-loss-keras)]
 - Matrix factorization for binary implicit feedback data. [[blog post](https://nanx.me/blog/post/recsys-binary-implicit-feedback-r-keras/)] [[code](recsys-binary-implicit-keras.R)]
 - "Wide and deep" model for regression/classification. [[blog post](https://nanx.me/blog/post/building-my-first-deep-learning-machine/)] [[code](tensorflow-wide-n-deep.R)]
