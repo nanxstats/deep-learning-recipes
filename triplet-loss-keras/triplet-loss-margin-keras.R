@@ -163,7 +163,7 @@ df_loss <-
 p_loss <- ggplot(df_loss, aes(x = epoch, y = loss)) +
   geom_point(aes(fill = data), shape = 21, colour = "#333333") +
   geom_smooth(aes(colour = data), span = 0.5, se = FALSE, show.legend = FALSE) +
-  hrbrthemes::theme_ipsum() +
+  theme_ipsum() +
   theme(plot.margin = unit(c(1, 1, 0, 1), "cm")) +
   scale_fill_startrek() +
   scale_color_startrek()
@@ -175,7 +175,7 @@ df_auc <-
 p_auc <- ggplot(df_auc, aes(x = epoch, y = auc)) +
   geom_point(aes(fill = data), shape = 21, colour = "#333333") +
   geom_smooth(aes(colour = data), span = 0.5, se = FALSE, show.legend = FALSE) +
-  hrbrthemes::theme_ipsum() +
+  theme_ipsum() +
   theme(plot.margin = unit(c(0, 1, 1, 1), "cm")) +
   scale_fill_startrek() +
   scale_color_startrek()
