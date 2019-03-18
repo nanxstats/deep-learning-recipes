@@ -8,10 +8,10 @@ use_virtualenv("~/tensorflow/venv/")
 
 # 1. preprocess data -----------------------------------------------------------
 
-# see full dataset at https://github.com/road2stat/MEF/
-url_drug <- "https://raw.githubusercontent.com/road2stat/MEF/master/data/drug.txt"
-url_adr <- "https://raw.githubusercontent.com/road2stat/MEF/master/data/adr.txt"
-url_pair <- "https://raw.githubusercontent.com/road2stat/MEF/master/data/association.txt"
+# see full dataset at https://github.com/nanxstats/MEF/
+url_drug <- "https://raw.githubusercontent.com/nanxstats/MEF/master/data/drug.txt"
+url_adr <- "https://raw.githubusercontent.com/nanxstats/MEF/master/data/adr.txt"
+url_pair <- "https://raw.githubusercontent.com/nanxstats/MEF/master/data/association.txt"
 
 df_drug <- read.table(url_drug, sep = "\t", as.is = TRUE)
 df_adr <- read.table(url_adr, sep = "\t", as.is = TRUE)
